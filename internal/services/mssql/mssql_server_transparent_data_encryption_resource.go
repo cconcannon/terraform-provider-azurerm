@@ -2,7 +2,7 @@ package mssql
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"net/url"
 	"strings"
 	"time"

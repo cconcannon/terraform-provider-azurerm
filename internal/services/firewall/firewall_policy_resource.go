@@ -2,7 +2,7 @@ package firewall
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"time"
 
 	"github.com/hashicorp/go-azure-helpers/lang/response"

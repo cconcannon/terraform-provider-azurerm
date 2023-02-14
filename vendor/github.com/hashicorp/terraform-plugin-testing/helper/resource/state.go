@@ -5,7 +5,7 @@ package resource
 
 import (
 	"context"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"time"
 )
 

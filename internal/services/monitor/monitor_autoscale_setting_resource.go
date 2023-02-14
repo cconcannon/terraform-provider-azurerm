@@ -2,7 +2,7 @@ package monitor
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"strconv"
 	"time"
 

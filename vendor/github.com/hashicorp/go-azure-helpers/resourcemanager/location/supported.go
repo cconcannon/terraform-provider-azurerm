@@ -5,7 +5,7 @@ package location
 
 import (
 	"context"
-	"log"
+	log "github.com/sirupsen/logrus"
 )
 
 // supportedLocations can be (validly) nil - as such this shouldn't be relied on

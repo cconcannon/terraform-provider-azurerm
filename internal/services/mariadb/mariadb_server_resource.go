@@ -3,7 +3,7 @@ package mariadb
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"strconv"
 	"strings"
 	"time"

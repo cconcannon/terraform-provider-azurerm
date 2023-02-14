@@ -2,7 +2,7 @@ package eventgrid
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"regexp"
 	"time"
 

@@ -9,7 +9,7 @@ import (
 	"encoding/hex"
 	"encoding/pem"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"strings"
 	"time"
 

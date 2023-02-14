@@ -3,7 +3,7 @@ package storage
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"regexp"
 	"time"
 

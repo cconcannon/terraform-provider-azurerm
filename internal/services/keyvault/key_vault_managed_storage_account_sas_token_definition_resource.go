@@ -2,7 +2,7 @@ package keyvault
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"time"
 
 	"github.com/Azure/azure-sdk-for-go/services/keyvault/v7.1/keyvault"

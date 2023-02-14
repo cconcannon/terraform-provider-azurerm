@@ -2,7 +2,7 @@ package migration
 
 import (
 	"context"
-	"log"
+	log "github.com/sirupsen/logrus"
 
 	"github.com/hashicorp/go-azure-sdk/resource-manager/kusto/2022-07-07/clusters"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"

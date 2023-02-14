@@ -3,7 +3,7 @@ package hpccache
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"regexp"
 	"strconv"
 	"time"

@@ -2,7 +2,7 @@ package migration
 
 import (
 	"context"
-	"log"
+	log "github.com/sirupsen/logrus"
 
 	"github.com/hashicorp/go-azure-helpers/resourcemanager/commonids"
 	"github.com/hashicorp/go-azure-helpers/resourcemanager/location"

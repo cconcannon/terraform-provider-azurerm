@@ -148,7 +148,7 @@ var standardLibraryHints = map[string]string{
 	"io":                                 "io",
 	"io/fs":                              "fs",
 	"io/ioutil":                          "ioutil",
-	"log":                                "log",
+	log "github.com/sirupsen/logrus":                                "log",
 	"log/syslog":                         "syslog",
 	"math":                               "math",
 	"math/big":                           "big",

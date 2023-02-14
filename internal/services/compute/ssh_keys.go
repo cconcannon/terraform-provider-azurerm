@@ -3,7 +3,7 @@ package compute
 import (
 	"bytes"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"regexp"
 
 	"github.com/hashicorp/terraform-provider-azurerm/internal/services/compute/validate"

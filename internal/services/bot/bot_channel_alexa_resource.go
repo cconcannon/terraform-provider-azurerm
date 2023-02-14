@@ -3,7 +3,7 @@ package bot
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"strconv"
 	"time"
 

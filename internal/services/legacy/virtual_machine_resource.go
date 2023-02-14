@@ -5,7 +5,7 @@ import (
 	"crypto/sha1"
 	"encoding/hex"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"strings"
 	"time"
 

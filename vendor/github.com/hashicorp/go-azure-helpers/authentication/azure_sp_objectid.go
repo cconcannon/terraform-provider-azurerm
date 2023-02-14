@@ -6,7 +6,7 @@ package authentication
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"net/http"
 	"net/http/httputil"
 

@@ -3,7 +3,7 @@ package storage
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"time"
 
 	"github.com/hashicorp/terraform-provider-azurerm/helpers/tf"

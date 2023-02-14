@@ -2,7 +2,7 @@ package migration
 
 import (
 	"context"
-	"log"
+	log "github.com/sirupsen/logrus"
 
 	"github.com/hashicorp/go-azure-sdk/resource-manager/devtestlab/2018-09-15/virtualnetworks"
 	"github.com/hashicorp/terraform-provider-azurerm/helpers/azure"

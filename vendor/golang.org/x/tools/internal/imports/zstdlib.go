@@ -3688,7 +3688,7 @@ var stdlib = map[string][]string{
 		"TempFile",
 		"WriteFile",
 	},
-	"log": []string{
+	log "github.com/sirupsen/logrus": []string{
 		"Default",
 		"Fatal",
 		"Fatalf",

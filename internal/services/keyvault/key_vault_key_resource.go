@@ -9,7 +9,7 @@ import (
 	"encoding/base64"
 	"encoding/pem"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"math/big"
 	"time"
 

@@ -2,7 +2,7 @@ package migration
 
 import (
 	"context"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"strings"
 
 	"github.com/hashicorp/terraform-provider-azurerm/internal/tf/pluginsdk"

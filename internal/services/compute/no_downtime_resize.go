@@ -3,7 +3,7 @@ package compute
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"strings"
 
 	"github.com/hashicorp/go-azure-helpers/lang/pointer"

@@ -2,7 +2,7 @@ package databoxedge
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"time"
 
 	"github.com/Azure/azure-sdk-for-go/services/databoxedge/mgmt/2020-12-01/databoxedge" // nolint: staticcheck

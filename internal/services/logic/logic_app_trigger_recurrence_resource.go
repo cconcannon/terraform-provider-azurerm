@@ -2,7 +2,7 @@ package logic
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"time"
 
 	"github.com/hashicorp/go-azure-sdk/resource-manager/logic/2019-05-01/workflows"

@@ -3,7 +3,7 @@ package datafactory
 import (
 	"encoding/json"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"sort"
 	"strings"
 

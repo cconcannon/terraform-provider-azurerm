@@ -10,7 +10,7 @@ package imports
 import (
 	"go/ast"
 	"go/token"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"sort"
 	"strconv"
 )

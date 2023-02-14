@@ -2,7 +2,7 @@ package network
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"time"
 
 	"github.com/hashicorp/terraform-provider-azurerm/internal/clients"
