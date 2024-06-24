@@ -2,7 +2,7 @@ package applicationinsights
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"net/http"
 	"strings"
 	"time"

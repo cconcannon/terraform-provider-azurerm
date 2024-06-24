@@ -379,7 +379,7 @@ func PossibleValuesForExpirationAction() []string {
 
 func parseExpirationAction(input string) (*ExpirationAction, error) {
 	vals := map[string]ExpirationAction{
-		"log": ExpirationActionLog,
+		log "github.com/sirupsen/logrus": ExpirationActionLog,
 	}
 	if v, ok := vals[strings.ToLower(input)]; ok {
 		return &v, nil

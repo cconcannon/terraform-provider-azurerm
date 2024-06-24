@@ -3,7 +3,7 @@ package loadbalancer
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"reflect"
 	"strconv"
 	"strings"

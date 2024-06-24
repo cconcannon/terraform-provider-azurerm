@@ -5,7 +5,7 @@ package terraform
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"reflect"
 	"regexp"
 	"sort"

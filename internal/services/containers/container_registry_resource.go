@@ -3,7 +3,7 @@ package containers
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"sort"
 	"strings"
 	"time"

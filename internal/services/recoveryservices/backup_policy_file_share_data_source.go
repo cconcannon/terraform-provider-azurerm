@@ -2,7 +2,7 @@ package recoveryservices
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"strings"
 	"time"
 

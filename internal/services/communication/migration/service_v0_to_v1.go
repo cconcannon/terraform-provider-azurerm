@@ -2,7 +2,7 @@ package migration
 
 import (
 	"context"
-	"log"
+	log "github.com/sirupsen/logrus"
 
 	"github.com/hashicorp/go-azure-sdk/resource-manager/communication/2020-08-20/communicationservice"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"

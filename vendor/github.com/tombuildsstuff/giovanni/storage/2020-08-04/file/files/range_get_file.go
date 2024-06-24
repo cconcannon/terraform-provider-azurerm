@@ -3,7 +3,7 @@ package files
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"math"
 	"runtime"
 	"sync"

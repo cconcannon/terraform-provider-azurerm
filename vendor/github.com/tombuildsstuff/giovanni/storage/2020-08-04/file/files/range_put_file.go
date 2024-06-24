@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 	"io"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"math"
 	"os"
 	"sync"
